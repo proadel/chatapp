@@ -1,5 +1,5 @@
 1. Please all project files:
---> x:\\  
+--> x:\\yourPath\..\..
 --> C:\xampp\htdocs\. 
 --------------------------------
 2. Please create sql database:
