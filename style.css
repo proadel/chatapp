@@ -1,0 +1,79 @@
+/**/
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{ /*Start: One choice can change everything!;*/
+    background-color: silver;
+}
+#container{
+    background-color: rgb(49, 21, 74);
+    width: 40%;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+#chatbox{
+    width: 90%;
+    height: 400px;
+    color: white;
+}
+#chatdata{
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+input[type="text"]{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+textarea[type="text"]{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    background-color: gold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:770px){
+    #container{
+    width: 85%;
+    background-color: rgb(137, 136, 136);
+    }
+    textarea[type="text"]{
+        font-size: 14px;
+    }
+    input[type="submit"]{
+        background-color: tomato;
+        color: white;
+    }
+}
+@media only screen and (max-width:500px){ 
+    #container{
+    width: 85%;
+    background-color: rgb(0, 0, 0);
+    }
+    textarea[type="text"]{
+        font-size: 14px;
+    }
+    input[type="submit"]{
+        background-color: rgb(10, 2, 250);
+        color: white;
+    }
+}
